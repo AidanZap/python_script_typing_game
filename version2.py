@@ -12,8 +12,8 @@ def timer():
     global seconds_left
 
     while True:
-        seconds_left -= 1
         time.sleep(1)
+        seconds_left -= 1
 
 
 def get_word(low, high):
